@@ -1,0 +1,206 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&family=Roboto+Mono:ital,wght@1,300&display=swap');
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-radius: 0;
+    background-color: black;
+    color: #161e26;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 51px;
+}
+
+
+#fimg {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 568px;
+}
+
+.navbar-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.navbar-right li {
+    display: inline;
+    margin-right: 15px;
+    font-family: 'Cormorant', serif;
+}
+
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none;
+    color: #015BAE;
+    font-family: fantasy;
+    font-size: 27px;
+    padding-right: 96px;
+}
+
+.navbar-right {
+    position: absolute;
+    right: 20px;
+    font-family: cursive;
+}
+
+.container {
+    position: relative;
+    top: 91px;
+    max-width: 800px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #015BAE;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-right: 96px;
+}
+
+
+.button:hover {
+    background-color: #001f4d;
+}
+
+#pictue {
+    height: 440px;
+    width: 100%;
+    position: relative;
+}
+
+.container1 {
+
+    background-image: url("../images/img3.jpg");
+    /* Replace "your-image.jpg" with your image file's path */
+    background-size: cover;
+    /* This ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-attachment: fixed;
+    /* Keeps the background fixed while scrolling */
+    font-family: Arial, sans-serif;
+    margin: -91px;
+    padding: 191px;
+    height: 404px;
+    padding-left: 988px
+}
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 4px #000;
+    color: rgb(0, 0, 0);
+    /* Set text color to black */
+}
+
+.para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    /* Adjust the font weight as needed */
+    /* Any other styles you want to apply to this class */
+}
+
+.para2{
+    font-size: 20px;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+.mainh {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 55px;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    width: 700px;
+}
+.cards{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: #e7f1ff;
+    width: 193px;
+    height: 124px;
+    z-index: 2;
+}
+.holder .cards> div {
+    margin-top: 4px;
+    background-color: #1cd6ae;
+    padding: 6px;
+    border-radius: 5px;
+    width: 30px;
+}
+.link{
+    margin-left: 105px;
+}
+
+.second{
+    background-color: #e7f1ff;
+    height: 150px;
+    position: relative;
+    top: -50px;
+    padding: 155px;
+    /* border: 2px solid black; */
+    z-index: 0;
+    
+}
+.abcd{
+    /* border: 2px solid black; */
+    width: 377px;
+    height: 100px;
+    padding-left: 30px;
+    padding: 20px;
+    /* box-shadow: 60px -16px ; */
+    box-shadow: 10px 5px 5px #1cd6ae;
+}
+
+.heading{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px; /* You can adjust the font size as needed */ /* You can adjust the font weight as needed */
+
+}
+.list{
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 2;
+
+}
+.logo{
+    padding-left: 920px;
+    position: relative;
+    top: -162px;
+    height: 274px;
+}
+
